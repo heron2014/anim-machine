@@ -1,0 +1,184 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    font: 16px/1.5 'Asap', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+aside {
+    height: 100%;
+    width: 20%;
+    background-color: #01A093;
+    position: fixed;
+    float: left;
+}
+
+section {
+    height: 5000px;
+    width: 80%;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    background-color: #E4F4F3;
+    /*background-image: url('http://ihatetomatoes.net/merry-christmallax/img/bcg_paper.png');*/
+    /*background-repeat: repeat;*/
+    /*background-position: center top;*/
+    /*background-attachment: fixed;*/
+}
+
+#container {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+    width: 900px;
+    height: 2200px;
+    /*border: 1px solid red;*/
+    margin-left: -450px;
+}
+/*svg {*/
+
+
+    /*width: 900px;*/
+    /*height: 2300px;*/
+/*}*/
+#GSAPLab {
+    bottom: 10%;
+    position: absolute;
+}
+
+#container h1 {
+    font-size: 40px;
+    line-height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%, -150%);
+}
+
+#container h2 {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%, -150%);
+}
+
+#Anita, #Anita2 {opacity: 0}
+#container h1,
+#container h2 {
+    /*visibility: hidden;*/
+    opacity: 0.6;
+}
+#container h3 {
+    position: absolute;
+    left: 65%;
+    top: 35%;
+    visibility: hidden;
+    opacity: 0;
+}
+#container h4 {
+    position: absolute;
+    left: 35%;
+    bottom: 25%;
+    visibility: hidden;
+    opacity: 0;
+}
+#BulbIdea {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#stage {
+    transform: scale(1.4);
+    /*position: absolute;*/
+}
+
+@media (max-width: 1366px) {
+
+    aside {
+        background-color: yellow;
+    }
+
+    #container {
+        top: 1%;
+    }
+
+    #GSAPLab {
+        bottom: 20%;
+        position: absolute;
+    }
+    #container h3 {
+        top: 25%;
+    }
+}
