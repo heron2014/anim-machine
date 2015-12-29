@@ -76,6 +76,18 @@ aside {
     float: left;
 }
 
+#center-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#center-section p {
+    font-size: 20px;
+}
+
 section {
     height: 2200px;
     width: 80%;
